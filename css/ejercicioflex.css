@@ -1,0 +1,27 @@
+.bod {
+    width: 1080px;
+    height: 1350px;
+    background-color: rgb(206, 206, 24);
+    display: flex;
+}
+
+.one {
+    width: 400px;
+    height: calc(90vh);
+    background-color: aqua;
+}
+
+.two {
+    width: 950px;
+    height: calc(40vh);
+    background-color: rgb(191, 0, 255);
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tre {
+    width: 200px;
+    height: calc(40vh);
+    background-color: brown;
+    align-items: stretch;
+}

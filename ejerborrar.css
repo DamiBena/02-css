@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    
+}
+
+.content {
+    display: flex;
+    margin-inline: auto;
+    width: 60%;
+    align-items: center;
+
+}
+
+.padre1{
+    display: flex;
+    width: 100%;
+    height: calc(40vh);
+    flex-flow: wrap;
+    background-color: blue;
+    margin-inline: auto;
+    align-items: center;
+}
+
+.subp1{
+    display: flex;
+    flex-flow: wrap;
+    width: 50%;
+    height: calc(50vh);
+    margin-inline: auto;
+}
+
+.hijo1{
+    width: 80%;
+    height: 30%;
+    background-color: aliceblue;
+    
+}
+
+.subp2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: calc(40vh);
+}
+
+.hijo2{
+    width: 25%;
+    height: calc(40vh);
+    background-color: blueviolet;
+}
+
+.subp3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: calc(40vh);
+}
+
+.hijo3{
+    width: 25%;
+    height: calc(40vh);
+    background-color: blueviolet;
+}

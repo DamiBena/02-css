@@ -1,0 +1,26 @@
+h1 {
+    color: fuchsia;
+}
+
+div {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.alerta {
+    background-color: black
+}
+
+.alerta-importante {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+}
+
+.alerta-noimportante {
+    background-color: rgb(58, 165, 42);
+    width: 100px;
+    height: 100px;
+}

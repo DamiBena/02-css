@@ -1,0 +1,13 @@
+.titulo {
+    color: rgb(0, 0, 255, 0.904);
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 2px 2px 6px orange;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+.parrafo{
+    word-spacing: -3px;
+    text-indent: 75px;
+}

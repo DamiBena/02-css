@@ -1,0 +1,48 @@
+.mi-clase{
+    background-color: aqua;
+    
+}
+.intro{
+text-decoration: line-through;
+}
+.nombre{
+text-decoration: overline;
+}
+.descripcion{
+text-decoration: underline;
+}
+
+.content{
+    background-color: brown;
+}
+.up{
+    text-transform: uppercase;
+}
+.down{
+    text-transform: lowercase;
+}
+.cap{
+    text-transform: capitalize;
+}
+.content3{
+    background-color: blueviolet;
+}
+
+.alineacion{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.content4{
+    background-color: chocolate;
+}
+.identar{
+    border: rgb(255, 255, 255) solid 2px;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    line-height: 3;
+    text-shadow: 2px 2px 5px rgb(27, 16, 150); 
+}

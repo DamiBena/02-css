@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        height: 100px;
+        width: 100px;
+        border: 1px solid saddlebrown
+
+    }
+
+    .relativa{
+        position:relative;
+        top: 30px;
+        left: 80px;
+    }
+
+    .fija{
+        position: fixed;
+        top: 50px;
+        left: 40px;
+    }
+    .padre{
+        position: relative;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        background-color: beige;
+        border: 1px
+    }
+
+    .hijo{
+        background-color: aqua;
+        left: 80px;
+        top: 40px;
+        position: absolute;
+        bottom: 0px
+    }
+    </style>
+    
+
+<body>
+    <div class="content"></div>
+    <div class="relativa"></div>
+    <div class="fija"></div>
+
+    <div class="padre">
+        Este texto es una muestra de que es un padre
+    <div class="hijo">
+        caja de texto
+    </div>
+</body>
+
+</html>

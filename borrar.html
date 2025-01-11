@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Código HTML y CSS con Flexbox
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño con Flexbox</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Contenedor principal */
+        .contenedor {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Para ocupar toda la pantalla */
+        }
+
+        /* Encabezado */
+        .encabezado {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Menú de navegación */
+        .navegacion {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f8f9fa;
+            padding: 10px;
+        }
+
+        .navegacion a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        /* Contenido principal */
+        .contenido {
+            display: flex;
+            flex: 1; /* Ocupa todo el espacio disponible */
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .contenido .principal {
+            flex: 3; /* El contenido principal ocupa más espacio */
+            background-color: #e9ecef;
+            padding: 20px;
+        }
+
+        .contenido .lateral {
+            flex: 1; /* La barra lateral ocupa menos espacio */
+            background-color: #f3f3f3;
+            padding: 20px;
+        }
+
+        /* Pie de página */
+        .pie {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <!-- Encabezado -->
+        <header class="encabezado">
+            <h1>Mi Página con Flexbox</h1>
+        </header>
+
+        <!-- Menú de navegación -->
+        <nav class="navegacion">
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Productos</a>
+            <a href="#">Contacto</a>
+        </nav>
+
+        <!-- Contenido principal -->
+        <div class="contenido">
+            <div class="principal">
+                <h2>Contenido Principal</h2>
+                <p>Este es el espacio principal donde va la información más importante.</p>
+            </div>
+            <div class="lateral">
+                <h3>Barra Lateral</h3>
+                <p>Aquí puedes colocar enlaces adicionales, publicidad o widgets.</p>
+            </div>
+        </div>
+
+        <!-- Pie de página -->
+        <footer class="pie">
+            <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+</body>
+</html>
